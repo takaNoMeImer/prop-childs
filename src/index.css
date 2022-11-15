@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card:last-child {
+    border: none;
+}
+.item-card {
+    width: 100%;
+}
+.item-card img {
+    width: 70px;
+}
+.content-item {
+    display: flex;
+    padding: 3px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
